@@ -3,7 +3,7 @@ name: Deploy index.html to EC2 (Nginx)
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   deploy:
