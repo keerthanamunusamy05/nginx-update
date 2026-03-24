@@ -24,7 +24,7 @@ jobs:
           
 
       - name: move file to nginx dir
-        uses: appleboy/scp-action@v0.1.6
+        uses: appleboy/ssh-action@v0.1.6
         with: 
           host: ${{ secrets.EC2_PUBLIC_IP }}
           username: ec2-user
